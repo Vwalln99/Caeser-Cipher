@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Caesar Encryption</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Caesar Encryption</h1>
+        </div>
+        <div class="manual">
+            <ul>
+                <li type="circle">Write a message in the Messagebox. </li>
+                <li type="circle">Write a number in the Numberbox. </li>
+                <li type="circle">Click on the Encrypt/Decrypt Button. </li>
+                <li type="circle">Every Letter in the Text is going to shift by the given number in the alphabet. </li>
+                <li type="circle">If you put a negative number in the Numberbox you can decrypt your message. </li>
+            </ul>
+        </div>
+        <div class="label">
+            <label for="message">Message</label>
+        </div>
+        <div class="input">
+            <input type="text" id="message" /><br />
+        </div>
+        <div class="label">
+            <label for="shift">Shift</label>
+        </div>
+        <div class="input">
+            <input type="number" id="shift" /><br />
+        </div>
+        <div class="btn">
+            <button id="encryptButton">Encrypt/Decrypt</button><br />
+        </div>
+        <div class="btn">
+            <button id="reset">Reset</button>
+        </div>
+        <div class="label1">
+            <label for="encryptedMessage">Encrypted Message</label>
+        </div>
+        <div class="ausgabe">
+            <span id="encryptedMessage"></span>
+        </div>
+    </div>
+</body>
+
+</html>
